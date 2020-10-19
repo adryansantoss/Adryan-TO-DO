@@ -20,6 +20,7 @@ window.onload = function() {
             toDoMarked.classList.add('toDo-finalized')
             toDoTitle.innerText = title.value
             toDoTitle.style.textTransform = 'uppercase'
+            toDoTitle.style.fontSize = '22px'
             toDoParagraph.innerText = content.value
             toDoDiv.classList.add('to-dos')
             container.appendChild(toDoDiv)
